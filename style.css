@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(214, 224, 239);
+}
+
+.qr_container {
+    margin: 30%;
+    display: inline-block;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.qr_image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text
+
+.navy-bold-text {
+
+}
