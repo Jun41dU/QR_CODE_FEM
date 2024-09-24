@@ -1,16 +1,23 @@
 body {
-    background-color: rgb(214, 224, 239);
-    font-family: Outfit;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .qr_container {
     margin: 30%;
-    display: inline-block;
-    width: 40%;
-    background-color: white;
+    width: 100%;
+    min-width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     padding: 20px;
-    justify-content: center;
+
 }
 
 .qr_image {
@@ -20,4 +27,31 @@ body {
 
 .qr_main_text {
     font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    margin: 10px 0 10px;
+
+}
+
+p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%) ;
+    padding: 0vh 3vh 0px 3vh;
+}
+
+@media (min-width: 768px) {
+    .qr_container {
+        max-width: 400px;
+        padding: 30px;
+    }
+
+    .qr_main_text {
+        font-size: 26px;
+    }
+}
+
+@media  (min-width: 1440px) {
+    .qr_container {
+        max-width: 450px;
+    }
 }
